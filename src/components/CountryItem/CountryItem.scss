@@ -1,0 +1,55 @@
+.country-item {
+    max-width: 33%;
+    padding: 20px;
+    .card_wrapper{
+        border: none;
+        border-radius: 5px;
+        box-shadow: 1px 1px 10px rgba(0,0,0, .3);
+        background-color: var(--primary);
+        color: var(--text-color);
+        height: 500px;
+    }
+        .country-title p span{
+            opacity: 0.5;
+        }
+        .country-image img{
+            max-width: 100%;
+        }
+        .country-title{
+            padding: 15px 20px 30px;
+            h2{
+                font-size: 20px;
+                font-weight: 800;
+                margin-bottom: 20px;
+            }
+            p{
+                font-size: 15px;
+                font-weight: 700;
+                margin-bottom: 10px;
+            }
+            p span{
+                color: var(--text-color);
+                font-weight: 500;
+                margin-left: 6px;
+            }
+        }
+    
+}
+@media screen and (max-width:1090px){
+    .country-item{
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+}
+@media screen and (max-width:762px){
+    .country-item{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+@media screen and (max-width:546px){
+    .country-item{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,16 @@
+.navbar{
+    background:var(--primary);
+    &__text_wrapper{
+        color: var(--text-color);
+        cursor: pointer;
+    }
+    &__wrapper{
+        display: flex;
+         justify-content: space-between;
+         padding: 20px;
+         box-shadow: 1px 1px 10px rgba(0,0,0, .3);
+    }
+   &__content_wrapper{
+    background-color: var(--secondary);
+   }
+}
